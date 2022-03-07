@@ -1,11 +1,16 @@
-// synchronous
+// Asynchronous
 
 console.log(" I ")
 
 console.log(" eat ")
 
-console.log(" ice cream ")
+setTimeout(()=>{
+  console.log(" ice cream ")
+},4000)
 
 console.log(" with a ")
 
 console.log(" spoon ")
+
+
+// works in miliseconds
