@@ -1,4 +1,4 @@
-// Asynchronous
+// Asynchronous - does not log in the order it is read by js
 
 console.log(" I ")
 

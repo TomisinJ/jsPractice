@@ -55,3 +55,6 @@ let production = () => {
 
 order(0, production);
 
+// callbacks make relationships: parent - children - grandchildren etc
+// promises take instructions
+
