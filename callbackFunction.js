@@ -26,6 +26,11 @@ let production = () => {
   
   setTimeout(() => {
     console.log("production has started");
+
+    setTimeout(() => {
+      console.log("the food has been chopped");
+    }, 2000);
+  
   }, 0000);
 
 };
