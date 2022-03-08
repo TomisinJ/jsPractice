@@ -1,10 +1,20 @@
-let order = (call_production) => {
-  console.log("order placed, please call production");
-  call_production();
+// stock is back-end
+// kitchen is front-end
+
+let stocks = {
+  Fruits : ["strawberry", "grapes", "banana", "apple"]
 };
 
-let production = () => {
-  console.log("order received, starting production");
-};
+console.log(stocks.Fruits[2]);
 
-order(production);
+// let order = (call_production) => {
+//   console.log("order placed, please call production");
+//   call_production();
+// };
+
+// let production = () => {
+//   console.log("order received, starting production");
+// };
+
+// order(production);
+
