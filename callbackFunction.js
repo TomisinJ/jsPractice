@@ -45,19 +45,12 @@ let production = () => {
               setTimeout(() => {
                 console.log("serve ice cream");
               }, 2000);
-
             }, 3000);
-
           }, 2000);
-
         }, 1000);
-
       }, 1000);
-
     }, 2000);
-  
   }, 0000);
-
 };
 
 order(0, production);
